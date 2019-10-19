@@ -12,7 +12,7 @@ body{
     font-size: 25px;
 }
 .container{
-    min-height: 700px;
+    min-height: 450px;
 }
 /*  Versi Desktop*/
 @media (min-width: 992px){
