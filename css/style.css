@@ -11,3 +11,8 @@ body{
 .navbar-link{
     color: #ffffff;
 }
+
+/*  Versi Desktop*/
+@media (min-width: 992px){
+
+}
