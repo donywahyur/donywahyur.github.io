@@ -8,7 +8,7 @@ body{
 .navbar-brand{
     font-weight: 500;
 }
-a, a:focus , a:hover{
+a.nav-link{
     color: #ffffff;
 }
 
