@@ -1,8 +1,12 @@
 
 .navbar{
+    font-size: 18px;
     font-weight:200;
 }
 .navbar-brand{
     font-family: Viga;
     font-weight: 500;
+}
+.navbar-link{
+    color: #ffffff;
 }
