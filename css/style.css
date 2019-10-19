@@ -1,10 +1,11 @@
-
+body{
+    font-family: Viga;
+}
 .navbar{
     font-size: 18px;
-    font-weight:200;
+    font-weight:300;
 }
 .navbar-brand{
-    font-family: Viga;
     font-weight: 500;
 }
 .navbar-link{
