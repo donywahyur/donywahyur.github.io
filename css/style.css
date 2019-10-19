@@ -11,6 +11,9 @@ body{
 .display-4{
     font-size: 25px;
 }
+.container{
+    min-height: 700px;
+}
 /*  Versi Desktop*/
 @media (min-width: 992px){
     .display-4{
