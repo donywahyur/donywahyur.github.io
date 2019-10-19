@@ -8,9 +8,6 @@ body{
 .navbar-brand{
     font-weight: 500;
 }
-a.nav-link{
-    color: #ffffff;
-}
 
 /*  Versi Desktop*/
 @media (min-width: 992px){
