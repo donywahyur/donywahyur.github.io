@@ -1,3 +1,8 @@
+
+.navbar{
+    font-weight:200;
+}
 .navbar-brand{
-    font-family: viga;
+    font-family: Viga;
+    font-weight: 500;
 }
