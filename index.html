@@ -13,20 +13,20 @@
 <body class="bg-dark">
     <!--  Navbar  -->
     <nav class="navbar navbar-expand-lg  fixed-top navbar-dark bg-dark" id="menu">
-        <a class="navbar-brand nav-link" href="#">Dony Wahyu</a>
+        <a data-menuanchor="home" class="navbar-brand nav-link" href="#home">Dony Wahyu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About </a>
+                    <a data-menuanchor="about" class="nav-link" href="#about">About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portofolio</a>
+                    <a data-menuanchor="portofolio" class="nav-link" href="#portofolio">Portofolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a data-menuanchor="contact" class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -36,7 +36,7 @@
     <!-- Main -->
 
     <div id="fullpage" class="text-light">
-        <div class="section " id="section0">
+        <div class="section active" id="home">
             <div class="container text-center mt-5">
                 <figure class="figure mt-4">
                     <img src="https://res.cloudinary.com/teepublic/image/private/s--hCXq1Vmk--/t_Preview/b_rgb:ffb81c,c_limit,f_jpg,h_630,q_90,w_630/v1538507493/production/designs/3247947_0.jpg" class="figure-img img-thumbnail rounded-circle" style="width:35%;height:35%;">
@@ -45,21 +45,20 @@
                 <p class="lead">Student & Web Developer</p>
             </div>
         </div>
-        <div class="section" id="section1">
+        <div class="section text-center" id="about">
             <div class="slide " id="slide2">
-                <div class="intro">
-                    
-                </div>
+                Slide 1    
             </div>
             <div class="slide" id="slide3">
-                <h1>Slide 2.3</h1>
+                Slide 2
             </div>
     
         </div>
-        <div class="section" id="section2">
-            <div class="intro">
-                <h1>Section 3</h1>
-            </div>
+        <div class="section text-center" id="portofolio">
+            portofolio
+        </div>
+        <div class="section text-center" id="contact">
+            contact
         </div>
     </div>
     
@@ -91,10 +90,10 @@
     <script src="js/fullpage.js" ></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['#343a40', '#343a40', '#343a40'],
-            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+            sectionsColor: ['#343a40', '#343a40', '#343a40','#343a40'],
+            anchors: ['home','about','portofolio','contact'],
             menu: '#menu',
-            lazyLoad: true
+            lazyLoad: false
         });
     </script>
     <!-- End Script -->
